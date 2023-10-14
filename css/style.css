@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(45, 47, 41) !important;
+}
+/* تصفيف العناصر */
+.jumbotron h1,
+.jumbotron p,
+.container,
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+/* تصفيف عنصر بالمعرف instagram */
+#instagram {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5) !important;
+    color: white;
+    border: none;
+}
+
+/* تصفيف العناصر المتعلقة بالـ Spinner */
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* تصفيف العناصر المتعلقة بالفريق */
+#team {
+    text-align: center;
+}
+
+#team .team-member {
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(196, 207, 237, 0.7);
+    border: 0;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+#team .team-member h6 {
+    font-style: italic;
+}
+
+#team .team-member .team-social ul {
+    padding: 0;
+    margin: 0;
+}
+
+#team .team-member .team-social li {
+    display: inline-block;
+}
+
+#team .team-member .team-social li a {
+    font-size: 20px;
+    padding: 12px;
+    color: #44c5ee;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+#team .team-member .team-social li a:hover,
+#team .team-member .team-social li a:focus,
+#team .team-member .team-social li a:active {
+    color: #496174;
+}
+
+.shadow-card{
+    box-shadow: 0px 0px 8px 0px rgba(196, 207, 237, 0.7) !important;
+
+}
+
+
+/* تصفيف الصفحة الرئيسية */
+#home {
+    position: relative;
+    background-image: url(../images/itclub.png);
+    background-size: 100px;
+    background-position: center;
+    background-attachment: fixed;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+#home:after {
+    content: "";
+    background: linear-gradient(45deg, rgba(222, 7, 104, 0.8), rgba(4, 22, 216, 0.8)) !important;
+    opacity: 0.8 !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+/* تصفيف العنصر بالمعرف particles-js */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 7;
+}
+
+.carousel-caption{
+    background-color: #44444466;
+}
