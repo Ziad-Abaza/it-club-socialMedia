@@ -16,6 +16,11 @@ body{
     color: white;
     border: none;
 }
+#instagram:hover{
+    background: linear-gradient(45deg, rgb(254, 201, 97), #ea751b, #c7256e, #8729ad, #424ec9) !important;
+    color: white;
+    border: none;
+}
 
 /* تصفيف العناصر المتعلقة بالـ Spinner */
 /*** Spinner ***/
